@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@id/textView"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Yaavanigottu"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@id/webView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLay" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView1"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_below="@id/button"
+        android:text="Paravashanaadenu"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_below="@id/webView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLay" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView2"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@id/button1"
+        android:text="Hesaru Poorthi"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_below="@id/webView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLay" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView3"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@id/button2"
+        android:text="Tanmayalaadenu"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_below="@id/webView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLay" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView4"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_below="@id/button3"
+        android:text="College Gate"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_below="@id/webView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLay" />
+
+    </RelativeLayout>
+
+</ScrollView>
